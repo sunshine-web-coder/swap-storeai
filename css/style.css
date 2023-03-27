@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #16D5FF;
+    --primary: #FADDB1;
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
@@ -95,7 +95,7 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #ebb058;
 }
 
 .navbar .dropdown-toggle::after {
@@ -139,7 +139,7 @@ h6,
 
 .navbar .btn:hover {
     color: #FFFFFF !important;
-    background: var(--primary) !important;
+    /* background: var(--primary) !important; */
 }
 
 
@@ -204,7 +204,7 @@ h6,
     left: 50%;
     margin-left: -15px;
     background: #FFFFFF;
-    border: 2px solid var(--primary);
+    border: 2px solid #ebb058;
     transform: rotate(45deg);
     display: flex;
     align-items: center;
@@ -215,7 +215,7 @@ h6,
     display: block;
     width: 18px;
     height: 18px;
-    background: var(--primary);
+    background: #ebb058;
 }
 
 .roadmap-carousel .roadmap-item {
@@ -244,7 +244,7 @@ h6,
     left: 50%;
     margin-left: -7px;
     transform: rotate(45deg);
-    background: var(--primary);
+    background: #ebb058;
 }
 
 .roadmap-carousel .owl-nav {
@@ -264,14 +264,14 @@ h6,
     border-radius: 50px;
     font-size: 22px;
     color: var(--light);
-    background: var(--primary);
+    background: #ebb058;
     transition: .5s;
 }
 
 .roadmap-carousel .owl-nav .owl-prev:hover,
 .roadmap-carousel .owl-nav .owl-next:hover {
     color: var(--primary);
-    background: var(--dark);
+    background: #e29d35;
 }
 
 
@@ -287,7 +287,7 @@ h6,
 }
 
 .accordion .accordion-button:not(.collapsed) {
-    color: #FFFFFF;
+    color: #000000;
     background: var(--primary);
     box-shadow: none;
 }
@@ -307,7 +307,7 @@ h6,
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--secondary);
+    color: #000000;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -318,24 +318,24 @@ h6,
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: var(--secondary);
+    color: #000000;
     margin-right: 10px;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: #000000;
     letter-spacing: 1px;
     box-shadow: none;
 }
 
 .footer .btn.btn-square {
-    color: var(--primary);
-    border: 1px solid var(--primary);
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 .footer .btn.btn-square:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: #000000;
 }
 
 .footer .copyright {
@@ -344,9 +344,5 @@ h6,
 }
 
 .footer .copyright a {
-    color: var(--primary);
-}
-
-.footer .copyright a:hover {
-    color: var(--dark);
+    color: #000000;
 }
