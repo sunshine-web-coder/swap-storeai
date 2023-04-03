@@ -42,11 +42,11 @@
 .yellow_bg_p {
   color: #272727 !important;
 }
-.section_p{
-    padding-top: 100px !important;
+.section_p {
+  padding-top: 100px !important;
 }
 
-.exchange-container{
+.exchange-container {
   width: 100%;
   /* position: relative; */
   display: flex;
@@ -56,4 +56,15 @@
   text-align: center;
   padding-top: 30px;
   padding-bottom: 50px;
+}
+
+.aLink a {
+  color: blue;
+}
+.aLink a.fALink {
+  color: #272727;
+  transition: .3s;
+}
+.aLink a.fALink:hover {
+  color: rgb(139, 30, 30);
 }
