@@ -63,8 +63,84 @@
 }
 .aLink a.fALink {
   color: #272727;
-  transition: .3s;
+  transition: 0.3s;
 }
 .aLink a.fALink:hover {
   color: rgb(139, 30, 30);
 }
+
+/* token price fetch style */
+.token_container {
+}
+.token_ia7a8 {
+  padding: 5px;
+}
+.token_container .inner_token_container {
+  background-color: rgba(0, 0, 0, 0.925);
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  width: 100%;
+  color: #ffffff;
+}
+
+.token_container .inner_token_container .top {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(236, 241, 240, 0.192);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 15px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.token_container .inner_token_container .top .box-text {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.token_container .inner_token_container .top .box-text h4 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.token_container .inner_token_container .top .box-text .badge {
+  text-transform: uppercase;
+  background-color: #faddb1;
+  padding: 4px 10px;
+  font-size: 10px;
+  line-height: 13px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.token_container .inner_token_container .bottom {
+  display: flex;
+}
+.token_container .inner_token_container .bottom .col-6 {
+}
+.token_container .inner_token_container .bottom .col-6 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #ffffff;
+}
+.token_container .inner_token_container .bottom .col-6 p {
+  font-size: 15px;
+  line-height: 29px;
+  font-weight: 500;
+}
+
+.negative {
+  color: red;
+}
+
+/* slideshow */
