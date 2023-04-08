@@ -95,7 +95,12 @@
   -webkit-box-pack: justify;
   justify-content: space-between;
 }
-
+@media screen and (max-width: 767px) {
+  .token_container .inner_token_container .top img {
+    width: 35px;
+    height: 35px;
+  }
+}
 .token_container .inner_token_container .top .box-text {
   display: flex;
   -webkit-box-align: center;
